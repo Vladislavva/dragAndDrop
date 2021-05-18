@@ -2,3 +2,6 @@ body{
     display: flex;
     flex-direction: row;
 }
+.draggable{
+    cursor: pointer;
+}

@@ -7,7 +7,7 @@ const enterText = () => {
   const result = document.getElementById("textInput").value;
   document.getElementById("textInput").value = "";
   result.split("").map((element, id) => {
-    const p = `<div class=" draggable" id="${id}">${element}</div>`;
+    const p = `<div class="draggable" id="${id}">${element}</div>`;
     divForResult.insertAdjacentHTML("afterend", p);
   });
 };
